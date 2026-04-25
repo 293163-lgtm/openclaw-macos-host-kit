@@ -1,0 +1,40 @@
+<svg width="1600" height="840" viewBox="0 0 1600 840" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="52%" stop-color="#151b22"/>
+      <stop offset="100%" stop-color="#0f1411"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b9904b"/>
+      <stop offset="100%" stop-color="#f0d58a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="840" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1456" height="696" rx="44" fill="none" stroke="#2d3742" stroke-width="2"/>
+  <circle cx="1320" cy="210" r="118" fill="#172019" stroke="#36503d" stroke-width="2"/>
+  <path d="M1246 210h148M1320 136v148" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  <text x="116" y="236" fill="#f6f1e8" font-size="76" font-family="Avenir Next, Inter, Helvetica, Arial, sans-serif" font-weight="700">openclaw-macos-host-kit</text>
+  <text x="120" y="318" fill="#d8b36a" font-size="34" font-family="Avenir Next, Inter, Helvetica, Arial, sans-serif">Stable macOS host kit for real OpenClaw workstations</text>
+  <text x="120" y="380" fill="#bcb5a8" font-size="28" font-family="PingFang SC, Avenir Next, sans-serif">桌面宿主 · 权限引导 · 快捷入口 · 真有效 Heartbeat 开关</text>
+  <g transform="translate(120 500)">
+    <rect width="310" height="96" rx="22" fill="#111820" stroke="#30404d"/>
+    <text x="28" y="42" fill="#f6f1e8" font-size="26" font-family="Avenir Next, sans-serif">Host</text>
+    <text x="28" y="74" fill="#9fb1bd" font-size="19" font-family="Avenir Next, sans-serif">Terminal anchored launcher</text>
+  </g>
+  <g transform="translate(470 500)">
+    <rect width="310" height="96" rx="22" fill="#111820" stroke="#30404d"/>
+    <text x="28" y="42" fill="#f6f1e8" font-size="26" font-family="Avenir Next, sans-serif">Workbench</text>
+    <text x="28" y="74" fill="#9fb1bd" font-size="19" font-family="Avenir Next, sans-serif">Clean desktop package</text>
+  </g>
+  <g transform="translate(820 500)">
+    <rect width="310" height="96" rx="22" fill="#111820" stroke="#30404d"/>
+    <text x="28" y="42" fill="#f6f1e8" font-size="26" font-family="Avenir Next, sans-serif">Heartbeat</text>
+    <text x="28" y="74" fill="#9fb1bd" font-size="19" font-family="Avenir Next, sans-serif">Config + runtime toggle</text>
+  </g>
+  <g transform="translate(1170 500)">
+    <rect width="310" height="96" rx="22" fill="#111820" stroke="#30404d"/>
+    <text x="28" y="42" fill="#f6f1e8" font-size="26" font-family="Avenir Next, sans-serif">Safety</text>
+    <text x="28" y="74" fill="#9fb1bd" font-size="19" font-family="Avenir Next, sans-serif">Archive, don't delete</text>
+  </g>
+</svg>
